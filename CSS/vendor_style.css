@@ -1,0 +1,58 @@
+a.add_vendor{
+    background-color:wheat;
+    border-radius: 10px;
+  }
+
+  body{
+    background-color: aquamarine;
+  }
+  h1{
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the header row */
+thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Style the "Add Vendor" link */
+.add_vendor a {
+    background-color: darkturquoise;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.add_vendor a:hover {
+    background-color: #0056b3;
+}
+
+/* Style the "Edit" links */
+table a {
+    background-color: #1E90FF;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+table a:hover {
+    background-color: #007BFF;
+}
